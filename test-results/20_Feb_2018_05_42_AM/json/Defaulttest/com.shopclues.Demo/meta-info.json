@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "test",
+        "sign": "Demo.test()[pri:0, instance:com.shopclues.Demo@d6da883]"
+      },
+      "dependsOn": [],
+      "startTime": 1519105384922,
+      "duration": 46108,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

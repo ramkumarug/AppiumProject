@@ -1,0 +1,119 @@
+{
+  "reports": [
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Feb_2018_05_42_AM/json",
+      "startTime": 1519213791956
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/21_Feb_2018_05_11_PM/json",
+      "startTime": 1519213271258
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Feb_2018_05_42_AM/json",
+      "startTime": 1519213080571
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Feb_2018_05_42_AM/json",
+      "startTime": 1519212903792
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Feb_2018_05_42_AM/json",
+      "startTime": 1519211654051
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/21_Feb_2018_04_24_PM/json",
+      "startTime": 1519210474519
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/21_Feb_2018_02_00_PM/json",
+      "startTime": 1519201820773
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/21_Feb_2018_12_36_PM/json",
+      "startTime": 1519196765004
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Feb_2018_05_42_AM/json",
+      "startTime": 1519196568325
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Feb_2018_05_42_AM/json",
+      "startTime": 1519194432117
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Feb_2018_05_42_AM/json",
+      "startTime": 1519194027414
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/21_Feb_2018_11_17_AM/json",
+      "startTime": 1519192033935
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/21_Feb_2018_10_10_AM/json",
+      "startTime": 1519188016677
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/20_Feb_2018_07_22_PM/json",
+      "startTime": 1519134747381
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/20_Feb_2018_07_04_PM/json",
+      "startTime": 1519133698389
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/20_Feb_2018_06_58_PM/json",
+      "startTime": 1519133341337
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/20_Feb_2018_06_56_PM/json",
+      "startTime": 1519133186183
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/20_Feb_2018_06_49_PM/json",
+      "startTime": 1519132780190
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/20_Feb_2018_06_38_PM/json",
+      "startTime": 1519132099744
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/20_Feb_2018_06_30_PM/json",
+      "startTime": 1519131649324
+    },
+    {
+      "name": "shopclues.scenarios.suite1.bdd",
+      "dir": "test-results/20_Feb_2018_06_16_PM/json",
+      "startTime": 1519130773441
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/20_Feb_2018_11_21_AM/json",
+      "startTime": 1519125752400
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Feb_2018_05_42_AM/json",
+      "startTime": 1519105384630
+    }
+  ]
+}

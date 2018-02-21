@@ -1,0 +1,32 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "openApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://localhost:4723/wd/hub}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 3986
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open the shopclues application",
+      "type": "TestStepPass",
+      "duration": 48010,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

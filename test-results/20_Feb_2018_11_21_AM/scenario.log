@@ -1,0 +1,12 @@
+16:52:32 scenario.file.loc[Ljava.lang.String;@87f383f
+16:52:32 loading BDD file: C:\Users\ram.kumar\Desktop\QmetryProject\shopclues\.\scenarios\suite1.bdd
+16:52:32 total test found: 1
+16:52:32 
+
+Executing scenario: SampleTest - Sample Test Scenario
+16:52:32 pkg: com.qmetry.qaf.automation.step
+16:52:32 pkg: com.shopclues
+16:52:32 Found duplicate step to load [] with [lower] prority then []
+16:52:32 Invoking Teststep: Given I open the shopclues application
+16:53:20 Completed Teststep: Given I open the shopclues application
+16:53:20 Competed scenario: SampleTest with status SUCESS

@@ -1,0 +1,444 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "openApp",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://localhost:4723/wd/hub}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1064
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnMenu",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 13 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 13 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 18 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 14 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 8 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 9 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 12 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 8 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 19 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 13 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 15 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 9 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 9 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 12 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 11 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 16 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 17 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 13 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 8 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 12 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=android.widget.ImageButton, using=class}"
+          ],
+          "result": "Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 13 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "[unknown locator]",
+            "{\"id\":\"-1\"}"
+          ],
+          "result": "Timed out after 30 seconds waiting for presence of element located by: [unknown locator]\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "subLogs": [],
+          "duration": -1286277992
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on to mobiles and tablets tab",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on to mobile phones options",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on to smart phones",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on to mobile model",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And I click on to add to cart",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verify whether the selected product is added in cart",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I open the shopclues application",
+      "type": "TestStepPass",
+      "duration": 14093,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I click on to menu icon",
+      "type": "TestStepFail",
+      "screenshot": "test-results/20_Feb_2018_06_38_PM/img/SampleTest_1sv8rri5fp8z723052.png",
+      "duration": 30552,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 30 seconds waiting for presence of element located by: [unknown locator]\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: driver.version: QAFExtendedWebDriver",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And I click on to mobiles and tablets tab",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on to mobile phones options",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on to smart phones",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on to mobile model",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And I click on to add to cart",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify whether the selected product is added in cart",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: [unknown locator]\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: driver.version: QAFExtendedWebDriver\r\n\tat .When I click on to menu icon(scenarios/suite1.bdd:8)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click_aroundBody50(CommonStep.java:648)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:647)\r\n\tat com.shopclues.HomeStepPage.clickOnMenu(HomeStepPage.java:41)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\nCaused by: org.openqa.selenium.InvalidSelectorException: Locator Strategy 'class' is not supported for this session (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 13 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11474', ip: '10.11.31.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.shopclues, deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=192.168.184.101:5555, platform=LINUX, deviceUDID=192.168.184.101:5555, appActivity=com.shopclues.HomeActivity, browser_name=, desired={appPackage=com.shopclues, appActivity=com.shopclues.HomeActivity, browser_name=, appium-version=4.1.2, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, platformName=Android, deviceName=192.168.184.101:5555, cssSelectorsEnabled=true}, appium-version=4.1.2, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, driver.class=io.appium.java_client.android.AndroidDriver, deviceModel=Custom Phone - 6.0.0 - API 23 - 768x1280, platformName=Android, deviceManufacturer=Genymotion, cssSelectorsEnabled=true}]\nSession ID: 3947d633-65ef-4135-9c8f-6fbb101807d0\n*** Element info: {Using=class, value=android.widget.ImageButton}\r\n\tat sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:388)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElementsByCustomStretegy(QAFExtendedWebDriver.java:507)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.ByCustom.findElements(ByCustom.java:53)\r\n\tat org.openqa.selenium.By.findElement(By.java:159)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click_aroundBody50(CommonStep.java:648)\r\n\tat com.qmetry.qaf.automation.step.CommonStep$AjcClosure51.run(CommonStep.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:647)\r\n\tat com.shopclues.HomeStepPage.clickOnMenu(HomeStepPage.java:41)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Product Description</div><div  class="info"><span class="info-label">I </span>The name of teh product is :Karbonn Titanium Frames S7 (5.5 Inch Fhd Ips, 3 Gb, 32 Gb, 13 Mp Camera, Champagne) - With Fingerprint Sensor</div><div  class="info"><span class="info-label">I </span>The first price of the product is :₹10990</div><div  class="info"><span class="info-label">I </span>The second price of the product is :₹9990</div><div  class="info"><span class="info-label">I </span>The third price of the product is :₹6999</div><div  class="info"><span class="info-label">I </span>The offer percentage of the product is :36% Off</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="115307" started-at="2018-02-21T11:49:52Z" finished-at="2018-02-21T11:51:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="115307" started-at="2018-02-21T11:49:52Z" finished-at="2018-02-21T11:51:47Z">
+      <class name="com.shopclues.tests.OnlinePurchase">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]" name="setupSuit" is-config="true" duration-ms="37" started-at="2018-02-21T17:19:52Z" finished-at="2018-02-21T17:19:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75329a49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]" name="setupTest" is-config="true" duration-ms="3" started-at="2018-02-21T17:19:52Z" finished-at="2018-02-21T17:19:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75329a49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]" name="setup" is-config="true" duration-ms="1" started-at="2018-02-21T17:19:52Z" finished-at="2018-02-21T17:19:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75329a49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-02-21T17:19:52Z" finished-at="2018-02-21T17:19:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.shopclues.tests.OnlinePurchase.orderProduct()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@75329a49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="orderProduct()[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]" name="orderProduct" duration-ms="110845" started-at="2018-02-21T17:19:52Z" finished-at="2018-02-21T17:21:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Product Description</div><div  class="info"><span class="info-label">I </span>The name of teh product is :Karbonn Titanium Frames S7 (5.5 Inch Fhd Ips, 3 Gb, 32 Gb, 13 Mp Camera, Champagne) - With Fingerprint Sensor</div><div  class="info"><span class="info-label">I </span>The first price of the product is :₹10990</div><div  class="info"><span class="info-label">I </span>The second price of the product is :₹9990</div><div  class="info"><span class="info-label">I </span>The third price of the product is :₹6999</div><div  class="info"><span class="info-label">I </span>The offer percentage of the product is :36% Off</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- orderProduct -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-21T17:21:43Z" finished-at="2018-02-21T17:21:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75329a49]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=orderProduct status=SUCCESS method=OnlinePurchase.orderProduct()[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883] output=<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Product Description</div><div  class="info"><span class="info-label">I </span>The name of teh product is :Karbonn Titanium Frames S7 (5.5 Inch Fhd Ips, 3 Gb, 32 Gb, 13 Mp Camera, Champagne) - With Fingerprint Sensor</div><div  class="info"><span class="info-label">I </span>The first price of the product is :₹10990</div><div  class="info"><span class="info-label">I </span>The second price of the product is :₹9990</div><div  class="info"><span class="info-label">I </span>The third price of the product is :₹6999</div><div  class="info"><span class="info-label">I </span>The offer percentage of the product is :36% Off</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-02-21T17:21:43Z" finished-at="2018-02-21T17:21:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75329a49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]" name="afterTest" is-config="true" duration-ms="4363" started-at="2018-02-21T17:21:43Z" finished-at="2018-02-21T17:21:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75329a49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]" name="afterSuit" is-config="true" duration-ms="3" started-at="2018-02-21T17:21:47Z" finished-at="2018-02-21T17:21:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75329a49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.shopclues.tests.OnlinePurchase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

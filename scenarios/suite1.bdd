@@ -1,0 +1,18 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+#	Add Steps here
+Given I open the shopclues application
+When I click on to menu icon
+And I click on to mobiles and tablets tab
+And I click on to mobile phones options
+And I click on to smart phones
+And I click on to mobile model
+And I click on to add to cart
+Then verify whether the selected product is added in cart
+ 
+	
+END
+

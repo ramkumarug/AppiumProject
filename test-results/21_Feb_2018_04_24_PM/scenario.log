@@ -1,0 +1,26 @@
+16:24:34 scenario.file.loc[Ljava.lang.String;@1ee807c6
+16:24:34 loading BDD file: scenarios/suite1.bdd
+16:24:34 total test found: 1
+16:24:34 
+
+Executing scenario: SampleTest - Sample Test Scenario
+16:24:34 pkg: com.qmetry.qaf.automation.step
+16:24:34 pkg: com.shopclues
+16:24:34 Found duplicate step to load [] with [lower] prority then []
+16:24:34 Invoking Teststep: Given I open the shopclues application
+16:25:04 Completed Teststep: Given I open the shopclues application
+16:25:04 Invoking Teststep: When I click on to menu icon
+16:25:06 Completed Teststep: When I click on to menu icon
+16:25:06 Invoking Teststep: And I click on to mobiles and tablets tab
+16:25:18 Completed Teststep: And I click on to mobiles and tablets tab
+16:25:18 Invoking Teststep: And I click on to mobile phones options
+16:25:30 Completed Teststep: And I click on to mobile phones options
+16:25:30 Invoking Teststep: And I click on to smart phones
+16:25:35 Completed Teststep: And I click on to smart phones
+16:25:35 Invoking Teststep: And I click on to mobile model
+16:25:37 Completed Teststep: And I click on to mobile model
+16:25:38 Invoking Teststep: And I click on to add to cart
+16:25:42 Completed Teststep: And I click on to add to cart
+16:25:42 Invoking Teststep: Then verify whether the selected product is added in cart
+16:25:46 Completed Teststep: Then verify whether the selected product is added in cart
+16:25:46 Competed scenario: SampleTest with status SUCESS

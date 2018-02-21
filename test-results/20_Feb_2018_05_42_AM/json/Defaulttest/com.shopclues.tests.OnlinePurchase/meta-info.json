@@ -1,0 +1,115 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "orderProduct",
+        "sign": "OnlinePurchase.orderProduct()[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]"
+      },
+      "dependsOn": [],
+      "startTime": 1519194027543,
+      "duration": 112255,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "orderProduct",
+        "resultFileName": "orderProductuRUKIMGQsG",
+        "sign": "OnlinePurchase.orderProduct()[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]"
+      },
+      "dependsOn": [],
+      "startTime": 1519194432243,
+      "duration": 82125,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "orderProduct",
+        "resultFileName": "orderProductdFmFtORNVi",
+        "sign": "OnlinePurchase.orderProduct()[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]"
+      },
+      "dependsOn": [],
+      "startTime": 1519196568497,
+      "duration": 105432,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "orderProduct",
+        "resultFileName": "orderProductDrCGywFFzT",
+        "sign": "OnlinePurchase.orderProduct()[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]"
+      },
+      "dependsOn": [],
+      "startTime": 1519211654186,
+      "duration": 83856,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "orderProduct",
+        "resultFileName": "orderProductGGHXXOvOwy",
+        "sign": "OnlinePurchase.orderProduct()[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]"
+      },
+      "dependsOn": [],
+      "startTime": 1519212903921,
+      "duration": 135888,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "orderProduct",
+        "resultFileName": "orderProductxOQMwatblz",
+        "sign": "OnlinePurchase.orderProduct()[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]"
+      },
+      "dependsOn": [],
+      "startTime": 1519213080710,
+      "duration": 88778,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "orderProduct",
+        "resultFileName": "orderProductzuSueNvtJF",
+        "sign": "OnlinePurchase.orderProduct()[pri:0, instance:com.shopclues.tests.OnlinePurchase@d6da883]"
+      },
+      "dependsOn": [],
+      "startTime": 1519213792117,
+      "duration": 110845,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

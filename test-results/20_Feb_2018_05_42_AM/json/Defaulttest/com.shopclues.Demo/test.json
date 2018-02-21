@@ -1,0 +1,14 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=http://localhost:4723/wd/hub}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 4030
+    }
+  ],
+  "checkPoints": []
+}
